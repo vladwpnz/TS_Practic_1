@@ -7,3 +7,11 @@
 > 4. Rewrite the JavaScript code by adding the type (number, boolean, string) without installing TypeScript and without changing the extension to the index.js file.
 > 5. Submit all changes, create a pull request from develop and generate revenue.
 > 6. Post a message to the repository.
+
+
+# TS_Practic_4
+
+> 1. All .ts code is logically divided into modules. Modules are in separate folders. Types too. 
+> 2. I connected all the modules to the main main.ts file.
+> 3. All functions in the code are typed.
+
