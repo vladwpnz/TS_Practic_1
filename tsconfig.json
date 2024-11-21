@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",                 // Який стандарт JavaScript генерується
+    "module": "es6",                 // Використання модулів
+    "outDir": "./dist",              // Куди зберігати згенеровані файли
+    "rootDir": "./src",              // Де знаходяться вихідні файли TypeScript
+    "strict": true,                  // Увімкнення суворої типізації
+    "esModuleInterop": true,         // Дозволяє імпортувати CommonJS модулі
+    "forceConsistentCasingInFileNames": true // Вимагає єдиного формату імен файлів
+  },
+  "include": ["src/**/*"],           // Включити всі файли в папці src
+  "exclude": ["node_modules", "dist"] // Виключити ці папки
+}
